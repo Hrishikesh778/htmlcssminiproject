@@ -113,8 +113,8 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 0px;
-    
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
  
 }
 
@@ -125,7 +125,7 @@
     width: 200px;
     background-color: aquamarine;
     
-    margin: 2px;
+    margin: 10px;
 
 }
 .photocard .pcimg{
