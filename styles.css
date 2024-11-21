@@ -27,6 +27,10 @@
     padding: 10px;
     margin-left: 10px;
 } */
+
+.menu{
+    display: none;
+}
 .nav {
     /* margin-left: 20px; */
     display: flex;
@@ -208,7 +212,11 @@ html {
     .search {
         display: none;
     }
-
+    .menu{
+        display: block;
+        justify-self: center;
+        align-self: center;
+    }
     .maincard {
         display: flex;
         padding-top: 0px;
