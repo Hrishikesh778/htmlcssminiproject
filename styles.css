@@ -131,6 +131,12 @@
 
 }
 
+.maincard a{
+    text-decoration:none ;
+
+}
+
+
 .photocard {
     border-color: brown;
     border-style: solid;
