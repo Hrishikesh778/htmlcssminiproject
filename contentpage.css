@@ -77,8 +77,14 @@
     /* padding-bottom: 0px; */
     flex-wrap: wrap;
     justify-content: center;
+    /* height: 150vh;
+    overflow: scroll; */
 
 }
+
+/* .rightsidephotocard::-webkit-scrollbar{
+    width: 0px;
+} */
 
 .rpctext {
     color: black;
@@ -121,6 +127,62 @@
     /* color: brown; */
 
 }
+
+
+.rightsideend{
+    padding: 20PX;
+}
+
+
+.rightsideend hr{
+    color: #efefef !important;
+}
+
+.rightsidenavbuttons{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.rightsidenavbuttons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.rightsidenavbuttons button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+  
+}
+
+
+.rightsidenavbuttons button:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+  }
+  
+  .rightsidenavbuttons button:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
 
 .dropbtn {
     background-color: #ffffff;
