@@ -270,3 +270,22 @@ html {
 
 
 }
+
+@media screen and (max-width:500px) {
+    .photocard {
+        border-color: brown;
+        border-style: solid;
+        /* height: 300px; */
+        width: 150px;
+        background-color: aquamarine;
+        margin: 10px;
+    }
+
+    .pctext {
+        height: auto;
+        width: 100%;
+        background-color: rgb(232 222 200);
+        text-align: center;
+        color: brown;
+    }
+}
