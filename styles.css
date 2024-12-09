@@ -257,8 +257,25 @@ html {
         align-items: center;
     }
 
+    .pctext {
 
-
+        height: auto;
+        width: 100%;
+        background-color: rgb(232 222 200);
+        text-align: center;
+        color: brown;
+    
+    }
+    .photocard {
+        border-color: brown;
+        border-style: solid;
+        /* height: 300px; */
+        width: 150px;
+        background-color: aquamarine;
+    
+        margin: 10px;
+    
+    }
 
 }
 
