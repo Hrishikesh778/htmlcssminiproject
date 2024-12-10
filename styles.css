@@ -38,6 +38,11 @@
     flex-wrap: nowrap;
 }
 
+.logodiv{
+    width: 130px;
+}
+
+
 .nav2 {
     /* margin-left: 20px; */
     display: flex;
