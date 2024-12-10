@@ -7,7 +7,7 @@
 .firstdiv {
     display: flex;
     height: 80px;
-    width: 100%;
+    width: auto;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     position: sticky;
@@ -16,22 +16,40 @@
     z-index: 2;
 }
 
+/* .logo {
+    width: 90px;
+    text-align: center;
+    align-content: center;
+
+} */
+
+/* .logo img {
+    height: 100%;
+    padding: 10px;
+    margin-left: 10px;
+} */
+
 .menu{
     display: none;
 }
 .nav {
+    /* margin-left: 20px; */
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav2 {
+    /* margin-left: 20px; */
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .navbuttons {
     background-color: rgb(255, 255, 255);
     height: 60px;
-    width: 40px;
+    width: auto;
     margin: 10px;
+
 }
 
 .btnnav {
@@ -43,8 +61,12 @@
 }
 
 .search {
+    /* flex-grow: 1; */
     display: flex;
+    /* justify-content: flex-start; */
     align-items: center;
+    /* margin-left: 50px; */
+    flex-wrap: nowrap;
 }
 
 .search input[type="text"] {
@@ -80,7 +102,7 @@
     display: flex;
     /* justify-content: flex-end; */
     align-items: center;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
 }
 
 .seconddiv {
